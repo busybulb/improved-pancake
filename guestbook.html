@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Projects | Global Tamil Cabal</title>
+    <title>Guestbook | Global Tamil Cabal</title>
     <style>
         :root {
             --sidebar-bg: #c4a000;
@@ -145,6 +145,22 @@
             padding-bottom: 10px;
         }
 
+        .guestbook-entry {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed var(--border-color);
+        }
+
+        .entry-meta {
+            font-size: 12px;
+            color: #666666;
+            margin-bottom: 5px;
+        }
+
+        .entry-message {
+            font-style: italic;
+        }
+
         .sidebar-header {
             font-family: 'Georgia', Times New Roman, serif;
             font-weight: bold;
@@ -221,11 +237,21 @@
                 <div class="nav-item">▶ <a href="guestbook.html">Guestbook</a></div>
             </div>
             <div class="content">
-                <h2 class="page-title">Projects</h2>
-                <p>Interpretability work, tools, experiments, and other technical artifacts.</p>
+                <h2 class="page-title">Guestbook</h2>
                 
-                <p style="text-align: center; margin-top: 40px; font-style: italic;">— WORK IN PROGRESS —</p>
-                <p style="text-align: center; font-size: 12px;">Check back soon. Or don't. I'm not your dad.</p>
+                <p>Sign the guestbook via <a href="mailto:globaltamilcabal@fastmail.net?subject=Guestbook">correspondence</a>. Selected transmissions will be posted below.</p>
+
+                <hr style="margin: 25px 0; border: none; border-top: 1px dashed var(--border-color);">
+
+                <div class="guestbook-entry">
+                    <div class="entry-meta"><strong>A fellow traveler</strong> · Nov 2025</div>
+                    <div class="entry-message">"The work continues."</div>
+                </div>
+
+                <div class="guestbook-entry">
+                    <div class="entry-meta"><strong>Anonymous</strong> · Nov 2025</div>
+                    <div class="entry-message">"First!"</div>
+                </div>
             </div>
             <div class="right-sidebar">
                 <div class="sidebar-header">Currently</div>
