@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Projects | Global Tamil Cabal</title>
+    <style>
+        :root {
+            --sidebar-bg: #c4a000;
+            --content-bg: #ffffcc;
+            --header-bg: #004040;
+            --text-dark: #000000;
+            --link-color: #8b0000;
+            --border-color: #000000;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #808080;
+            background-image: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                #757575 10px,
+                #757575 11px
+            );
+            font-family: 'Verdana', Arial, sans-serif;
+            cursor: crosshair;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: var(--header-bg);
+            padding: 20px;
+        }
+
+        .title-bar {
+            background: var(--link-color);
+            text-align: center;
+            padding: 8px;
+            border: 3px outset #b00000;
+        }
+
+        .site-title {
+            font-family: 'Georgia', Times New Roman, serif;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            letter-spacing: 2px;
+        }
+
+        .ticker {
+            background: var(--content-bg);
+            border-bottom: 2px solid var(--border-color);
+            padding: 5px 0;
+            font-size: 12px;
+        }
+
+        .main-layout {
+            display: flex;
+        }
+
+        .left-sidebar {
+            width: 150px;
+            background: var(--sidebar-bg);
+            padding: 10px;
+            border: 3px outset #d4b000;
+        }
+
+        .content {
+            flex: 1;
+            background: var(--content-bg);
+            padding: 20px;
+            border: 3px inset #e0e0e0;
+        }
+
+        .right-sidebar {
+            width: 180px;
+            background: var(--sidebar-bg);
+            padding: 10px;
+            border: 3px outset #d4b000;
+        }
+
+        .nav-item {
+            background: var(--sidebar-bg);
+            border: 3px outset #d4b000;
+            padding: 8px;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+
+        .nav-item a {
+            font-family: 'Georgia', Times New Roman, serif;
+            color: var(--text-dark);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .nav-item:hover {
+            background: var(--content-bg);
+            border: 3px inset #d4b000;
+        }
+
+        .feed-item {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed var(--border-color);
+        }
+
+        .feed-date {
+            font-size: 12px;
+            color: #666666;
+        }
+
+        .feed-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+
+        .feed-title a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+
+        .feed-title a:hover {
+            text-decoration: underline;
+        }
+
+        .feed-description {
+            font-size: 14px;
+            color: var(--text-dark);
+        }
+
+        .page-title {
+            font-family: 'Georgia', Times New Roman, serif;
+            font-size: 20px;
+            margin-top: 0;
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+        }
+
+        .sidebar-header {
+            font-family: 'Georgia', Times New Roman, serif;
+            font-weight: bold;
+            font-size: 14px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .sidebar-section {
+            margin-bottom: 12px;
+        }
+
+        .sidebar-label {
+            font-size: 12px;
+            font-weight: bold;
+            color: #333333;
+        }
+
+        .sidebar-content {
+            font-size: 13px;
+            color: var(--text-dark);
+        }
+
+        .visitor-counter {
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 2px solid var(--border-color);
+            text-align: center;
+        }
+
+        .counter-label {
+            font-size: 11px;
+            color: #333333;
+        }
+
+        .counter-display {
+            font-family: 'Courier New', monospace;
+            font-size: 16px;
+            background: #000000;
+            color: #00ff00;
+            padding: 4px 8px;
+            margin-top: 5px;
+            letter-spacing: 2px;
+        }
+
+        .netscape-badge {
+            margin-top: 15px;
+            padding: 8px;
+            background: #000080;
+            color: white;
+            font-size: 10px;
+            text-align: center;
+            border: 2px outset #cccccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+        </header>
+        <div class="title-bar">
+            <span class="site-title">GLOBAL TAMIL CABAL</span>
+        </div>
+        <div class="ticker">
+            <marquee scrollamount="3">WE ARE ALL TAMIL ☆ நாம் அனைவரும் தமிழர்கள் ☆ On est tous Tamoul ☆ Wir sind alle Tamilisch ☆ Todos somos Tamil ☆ Siamo tutti Tamil ☆ 我们都是泰米尔人 ☆ 私たちは皆タミル人です ☆ Мы все тамилы ☆ نحن جميعا تاميل ☆ Sisi sote ni Watamil ☆ Hepimiz Tamiliz ☆ 우리는 모두 타밀인이다 ☆ Todos somos Tâmeis ☆ हम सब तमिल हैं ☆ Ons is almal Tamil ☆ Chúng tôi đều là người Tamil ☆ Kami semua Tamil ☆ Jesteśmy wszyscy Tamilami ☆ Vi är alla Tamiler ☆ Olemme kaikki tamileja ☆ Við erum öll tamilar ☆ Είμαστε όλοι Ταμίλ ☆ אנחנו כולנו טמילים ☆ Sinn uile Taimil ☆ WE ARE ALL TAMIL ☆</marquee>
+        </div>
+        <div class="main-layout">
+            <div class="left-sidebar">
+                <div class="nav-item">▶ <a href="index.html">Home</a></div>
+                <div class="nav-item">▶ <a href="writing.html">Writing</a></div>
+                <div class="nav-item">▶ <a href="projects.html">Projects</a></div>
+                <div class="nav-item">▶ <a href="about.html">About</a></div>
+                <div class="nav-item">▶ <a href="mailto:your@email.com?subject=Guestbook">Guestbook</a></div>
+            </div>
+            <div class="content">
+                <h2 class="page-title">Projects</h2>
+                <p>Interpretability work, tools, experiments, and other technical artifacts.</p>
+                
+                <p style="text-align: center; margin-top: 40px; font-style: italic;">— WORK IN PROGRESS —</p>
+                <p style="text-align: center; font-size: 12px;">Check back soon. Or don't. I'm not your dad.</p>
+            </div>
+            <div class="right-sidebar">
+                <div class="sidebar-header">Currently</div>
+                <div class="sidebar-section">
+                    <div class="sidebar-label">Reading:</div>
+                    <div class="sidebar-content"><i>The Dark Forest</i> – Cixin Liu</div>
+                </div>
+                <div class="sidebar-section">
+                    <div class="sidebar-label">Last Watched:</div>
+                    <div class="sidebar-content"><i>Seven Samurai</i></div>
+                </div>
+                <div class="sidebar-section">
+                    <div class="sidebar-label">Listening:</div>
+                    <div class="sidebar-content">Joe Satriani – "Always With Me, Always With You"</div>
+                </div>
+                <div class="visitor-counter">
+                    <div class="counter-label">Visitors:</div>
+                    <div class="counter-display">000,127</div>
+                </div>
+                <div class="netscape-badge">
+                    Best viewed in<br>Netscape Navigator 4.0
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
